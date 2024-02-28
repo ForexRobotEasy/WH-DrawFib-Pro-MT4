@@ -1,0 +1,69 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                     WH DrawFib Pro MT4 Code Development        |
+//|                                          Forex Robot Easy Team - forexroboteasy.com         |
+//+------------------------------------------------------------------+
+
+//|                                     Code for automatic drawing of Fibonacci retracement levels |
+//|                                     and providing user-friendly interface for traders          |
+//|                                     to modify Fibonacci levels based on their strategies       |
+//+------------------------------------------------------------------+
+
+//|                                     Global Variables                                             |
+//+------------------------------------------------------------------+
+int fibLevels[]; // Array to store modified Fibonacci levels
+
+//|                                     Function to calculate Fibonacci retracement levels          |
+//+------------------------------------------------------------------+
+void CalculateFibonacciLevels(int start, int end)
+{
+    // Calculate Fibonacci levels based on the start and end points
+    // and store them in the fibLevels array
+    // ...
+    // ...
+}
+
+//|                                     Function to draw Fibonacci retracement levels on chart      |
+//+------------------------------------------------------------------+
+void DrawFibonacciLevels()
+{
+    // Draw Fibonacci retracement levels on the chart
+    // using the calculated Fibonacci levels from the fibLevels array
+    // ...
+    // ...
+}
+
+//|                                     Function to modify Fibonacci levels based on traders' strategies |
+//+------------------------------------------------------------------+
+void ModifyFibonacciLevels(int level, int value)
+{
+    // Modify the specified Fibonacci level with the provided value
+    // in the fibLevels array
+    // ...
+    // ...
+}
+
+//|                                     Function to handle user input for modifying Fibonacci levels |
+//+------------------------------------------------------------------+
+void HandleUserInput()
+{
+    // Prompt the user to input the Fibonacci level and value to modify
+    // ...
+    // ...
+    // Call the ModifyFibonacciLevels function with the user input
+    ModifyFibonacciLevels(level, value);
+}
+
+//|                                     Main function to control the program flow                   |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Calculate Fibonacci levels
+    CalculateFibonacciLevels(start, end);
+    
+    // Draw Fibonacci retracement levels on the chart
+    DrawFibonacciLevels();
+    
+    // Handle user input for modifying Fibonacci levels
+    HandleUserInput();
+}
